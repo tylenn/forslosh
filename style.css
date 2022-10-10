@@ -11,6 +11,10 @@ body {
     color: #333;
 }
 
+body, html {
+  overflow-y: hidden;
+}
+
 /* Front Page Styling */
 .front-page {
     height: 100vh;
