@@ -237,11 +237,11 @@ body, html {
     }
 
     .content-wrapper {
-        padding-top: 10px;
+        
         max-width: auto;
     }
     .content-wrapper img {
-        max-width: 90%
+        max-width: 100%
     }
 
     .footer-bottom {
