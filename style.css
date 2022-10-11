@@ -286,4 +286,24 @@ body {
             justify-content: center;
             align-items: center;
         }
+        .content-wrapper img {
+            max-width: 85%
+        }
     }
+        
+   @media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) { 
+        
+        .front-page {
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content-wrapper img {
+            max-width: 65%
+        }
+    }
+        
