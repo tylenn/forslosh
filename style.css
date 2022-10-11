@@ -234,9 +234,10 @@ body {
 
     .content-wrapper {
         padding-top: 5px;
+        height: auto;
     }
     .content-wrapper img {
-        max-width: 100%
+        max-width: 100%;
     }
 
     .footer-bottom {
