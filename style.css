@@ -237,11 +237,13 @@ body, html {
     }
 
     .content-wrapper {
-        
+        padding-top: 5px;
+        padding-bottom: 10px;
         max-width: auto;
+        max-height: fit-content;
     }
     .content-wrapper img {
-        max-width: 100%
+        max-width: 120%
     }
 
     .footer-bottom {
