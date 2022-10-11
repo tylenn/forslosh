@@ -251,4 +251,10 @@ body {
     .socials {
         justify-content: center;
     }
+     .front-page {
+        height: 750px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
