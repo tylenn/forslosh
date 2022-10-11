@@ -297,7 +297,7 @@ body {
     and (-webkit-device-pixel-ratio : 2) { 
         
         .front-page {
-            height: 600px;
+            height: 550px;
             display: flex;
             justify-content: center;
             align-items: center;
