@@ -274,4 +274,16 @@ body {
         .content-wrapper img {
             max-width: 85%
         }
+        
+ @media only screen 
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+        
+        .front-page {
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     }
