@@ -20,14 +20,14 @@ body {
 }
 
 .content-wrapper {
-    max-width: 250px;
+    max-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 0px;
 }
 .content-wrapper img {
-    max-width: 110%
+    max-width: 100%
 }
 
 .all-text h1 {
