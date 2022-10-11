@@ -265,13 +265,13 @@ body {
     and (-webkit-device-pixel-ratio : 3) {
        
         .front-page {
-            height: 650px;
+            height: 620px;
             display: flex;
             justify-content: center;
             align-items: center;
         }
 
         .content-wrapper img {
-            max-width: 90%
+            max-width: 85%
         }
     }
