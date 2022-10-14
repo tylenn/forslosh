@@ -32,7 +32,7 @@ body {
 
 .all-text h1 {
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 11px;
+    font-size: 10px;
     text-transform: none;
     font-style: normal;
     padding-top: 40px;
@@ -45,7 +45,7 @@ body {
     text-transform: none;
     text-align: justify;
     font-weight: 400;
-    line-height: 19px;
+    line-height: 18px;
 
 }
 /* Footer Styling */
@@ -66,7 +66,7 @@ body {
 
 .footer-content {
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 9px;
     padding: 0 20px;
     background: #fff;
     color: #000;
@@ -102,7 +102,7 @@ body {
     width: 100%;
     height: 70px;
     line-height: 70px;
-    font-size: 12px;
+    font-size: 11px;
     padding: 0 10px;
     position: fixed;
     top: 0;
@@ -298,7 +298,8 @@ body {
  /* iphone 6, 6s, 7, 8 */
  @media only screen and (min-device-width: 375px) 
         and (max-device-height: 667px) 
-        and (-webkit-device-pixel-ratio: 2) { 
+        and (-webkit-device-pixel-ratio: 2) {
+            
         .front-page {
             height: 600px;
             display: flex;
@@ -308,5 +309,22 @@ body {
 
         .content-wrapper img {
             max-width: 82%
+        }
+}
+
+/* iphone 12, 12 Pro */
+@media only screen and (min-device-width: 390px) 
+    and (max-device-height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) {
+        
+     .front-page {
+            height: 630px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content-wrapper img {
+            max-width: 85%
         }
 }
