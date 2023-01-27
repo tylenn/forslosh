@@ -296,7 +296,7 @@ body {
         }
         
          .content-wrapper video {
-            max-width: 85%
+            max-width: 65%
         }
 }
 
@@ -318,7 +318,7 @@ body {
         }
         
             .content-wrapper video {
-            max-width: 86%
+            max-width: 65%
         }
     }
 
@@ -339,7 +339,7 @@ body {
         }
             
         .content-wrapper video {
-            max-width: 82%
+            max-width: 70%
         }
 }
 
@@ -360,6 +360,6 @@ body {
         }
         
         .content-wrapper video {
-            max-width: 85%
+            max-width: 75%
         }
 }
